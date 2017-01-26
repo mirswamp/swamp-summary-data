@@ -1,0 +1,21 @@
+= swamp-summary-data
+
+This web site contains summary data of for curated packages in the SWAMP against all
+publicly available tools that can successfully assess the package.
+The data includes both a count of weakness types discovered and code metrics for the package.
+
+== Documentation ==
+
+Documentation describing the format and meaning of the file is available in
+link:https://mirswamp.github.io/swamp-summary-data/swamp_summary.pdf[pdf]
+or
+link:https://mirswamp.github.io/swamp-summary-data/swamp_summary.html[html]
+format.
+
+== Data Sets Available ==
+
+- link:https://mirswamp.github.io/swamp-summary-data/swamp_summary_20170126200613.xml[swamp_summary_20170126200613.xml] -
+  All the curated packages in the SWAMP against all the publicly available
+  tools on the ubuntu-16.04-64 operating system platform, except the Android
+  packages that were run on the android-ubuntu-12.04-64 operation system
+  platform.
