@@ -424,7 +424,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="details">
 <span id="author" class="author">James A. Kupsch</span><br>
 <span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2017-01-26 14:22:46 CST</span>
+<span id="revdate">2017-01-31 10:41:52 CST</span>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
@@ -483,7 +483,7 @@ If the package failed to build or be assessed, it is not included in the data se
 <p>Listing 1 is an example SWAMP summary file that contains the essential elements
 and structure.
 A typical summary file would be larger as it would include multiple packages
-assessed on a platforms and with multiple tools.
+assessed on multiple platfoms with multiple tools.
 It would also typically have more than one weakness type or code metric.</p>
 </div>
 <div class="paragraph">
@@ -611,7 +611,7 @@ version
 </table>
 </div>
 <div class="paragraph">
-<p>A <code>&lt;package&gt;</code> contains one or more <code>&lt;platform&gt;</code> elements.</p>
+<p>A <code>&lt;package&gt;</code> element contains one or more <code>&lt;platform&gt;</code> elements.</p>
 </div>
 </div>
 </div>
@@ -643,7 +643,7 @@ name
 </table>
 </div>
 <div class="paragraph">
-<p>A <code>&lt;package&gt;</code> contains one or more <code>&lt;platform&gt;</code> elements.</p>
+<p>A <code>&lt;platform&gt;</code> element contains one or more <code>&lt;tool&gt;</code> elements.</p>
 </div>
 </div>
 </div>
@@ -786,7 +786,7 @@ file or a function and is one of the following values:</p>
 <p>The <code>&lt;metric-summary&gt;</code> element is the summary of a particular code metric
 produced during an assessment by a metric tool such as lines of code (LOC) or
 cyclomatic complexity.
-A code metric is has a numeric value, so the summary data is more complex than
+A code metric is a numeric value, so the summary data is more complex than
 a <code>&lt;bug-summary&gt;</code>.
 The summary data is contained in child elements and includes the type of the
 metric, the count (number of times produced), and the sum, minimum, maximum,
@@ -857,7 +857,7 @@ token
 params
 </td>
 <td class="hdlist2">
-<p>Number of parameter to a function.</p>
+<p>Number of parameters to a function.</p>
 </td>
 </tr>
 </table>
@@ -920,7 +920,7 @@ type produced by the tool during an assessment.</p>
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2017-01-26 14:22:46 CST
+Last updated 2017-01-31 10:41:52 CST
 </div>
 </div>
 </body>
